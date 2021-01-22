@@ -17,7 +17,7 @@ library(ggrepel)
 library(ggeasy)
 
 #Read file for analysis: Ensure title heads from A to D are: Position, Mutation, Frequency, Gene. Column A is position. The position can be arbitrary or reflect the true genomic position. Column B is the name of the mutation. Column C is the frequency of the mutation. Column D is the name of the gene
-sarscov2<-read.csv("/Users/capoferria/Documents/Genetics COV2 Manuscript/Data analysis/dir_phase1_consensus_mut/csv/CladeGRPhase2new.csv") 
+sarscov2<-read.csv("data.csv") 
 
 #This will create a generic plot of Mutation Frequency vs position. Having the column of Gene, will color the points based on the Gene 
 ggplot(sarscov2, aes(x=Position, y=Frequency))+geom_point() + geom_point(aes(col=Gene), size=1.5)
