@@ -1,4 +1,10 @@
-setwd("~/Desktop")
+###################################################
+#              Generating Clade Proportions       #
+#                 Version 1.0 (Jan 2021)          #
+#             Written by Adam A. Capoferri        #               
+###################################################
+
+
 library(ggplot2)
 cladeprop<-read.csv("~/Desktop/COVID/R scripts for analysis/cladeprop.csv")
 gg<-ggplot(cladeprop, aes(x=Month, y=Percentage, fill=Clade)) + 
