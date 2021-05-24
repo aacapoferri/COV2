@@ -4,7 +4,7 @@
 #             Written by Adam A. Capoferri        #               
 ###################################################
 
-#This script was written to illustrate the GISAID clade of SARS-CoV-2 proportions overtime. But could be used for PANGO lineages as well. 
+#This script was written to illustrate the GISAID clade of SARS-CoV-2 proportions overtime in relation to the number of cases. But could be used for PANGO lineages as well. 
 
 #Also make sure you set to the correct directory first!
 
