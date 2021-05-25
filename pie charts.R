@@ -1,7 +1,7 @@
 library(ggplot2)
 library(ggrepel)
 library(dplyr)
-#Phase 1
+#Phase 1: Need to calculate the proportions for each region to enter into the value=c(")
 df <- data.frame(group = c("Northeast", "South", "Midwest", "West"), value = c(14.8, 18.6, 19.0, 47.6))
 head(df)
 
