@@ -1,4 +1,4 @@
-#This will graph the number of reported deaths. Currently set as a discrete time-scale but can be altered to continuous.
+#This will graph the number of reported deaths. Currently set as a discrete time-scale but can be altered to continuous. Practice dataset is the deathbyregion.csv file.
 
 library(ggplot2)
 library(dplyr)
