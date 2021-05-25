@@ -1,3 +1,10 @@
+
+###################################################
+#              Stripping "Ns" from alignments     #
+#                 Version 1.0 (Jan 2021)          #
+#             Written by Adam A. Capoferri        #               
+###################################################
+
 #As the title suggests this is to remove all gaps from sequences in alignments. Rinse and repeat for each dataset.
 
 library(seqinr)
