@@ -1,4 +1,4 @@
-#This graphs the number of sequences broken down by month. If can be made into a continuous axis.
+#This graphs the number of sequences broken down by month. If can be made into a continuous axis. Practice dataset is the sampling.csv file. 
 
 library(ggplot2)
 library(dplyr)
