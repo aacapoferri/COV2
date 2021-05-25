@@ -8,7 +8,7 @@
 #As the title suggests this is to remove all gaps from sequences in alignments. Rinse and repeat for each dataset.
 
 library(seqinr)
-x=read.fasta("/Users/capoferria/Desktop/dir_aligned/dir_aligned_ref_removed/AC_USA_wave1_clade_G.fas.mafft.fas")
+x=read.fasta("/Desktop/AC_USA_wave1_clade_G.fas.mafft.fas")
 new=lapply(seq(length(x)), function(i) {
   s2c(gsub("-","",c2s(getSequence(x[[i]]))))
 })
