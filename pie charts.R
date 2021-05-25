@@ -15,6 +15,6 @@ head(df)
 
 data<-ggplot(df, aes(x="", y=value, fill=group))+geom_bar(width = 1, stat="identity", color="black")
 data
-pie<-bp+coord_polar("y", start=0)+theme_void()
+pie<-data+coord_polar("y", start=0)+theme_void()
 pie_new<-pie+ scale_fill_brewer(palette="Set2")+guides(fill = guide_legend(title = "Region"))+scale_fill_discrete(breaks=c("Northeast", "South", "Midwest", "West", "Territory"))
 pie_new
