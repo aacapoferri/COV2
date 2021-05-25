@@ -1,3 +1,11 @@
+
+###################################################
+#                 Proportions by regions          #
+#                 Version 1.0 (Jan 2021)          #
+#             Written by Adam A. Capoferri        #               
+###################################################
+
+#This creates pie charts for any proportion of regions used. The number of regions can change and reflect that with the "value=()".
 library(ggplot2)
 library(ggrepel)
 library(dplyr)
