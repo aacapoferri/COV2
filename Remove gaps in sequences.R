@@ -1,6 +1,6 @@
 
 ###################################################
-#              Stripping "Ns" from alignments     #
+#              Stripping Gaps from alignments     #
 #                 Version 1.0 (Jan 2021)          #
 #             Written by Adam A. Capoferri        #               
 ###################################################
