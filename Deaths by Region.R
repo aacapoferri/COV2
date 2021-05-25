@@ -1,3 +1,10 @@
+
+###################################################
+#              COVID-19 Deaths by Region          #
+#                 Version 1.0 (Jan 2021)          #
+#             Written by Adam A. Capoferri        #               
+###################################################
+
 #This will graph the number of reported deaths. Currently set as a discrete time-scale but can be altered to continuous. Practice dataset is the deathbyregion.csv file.
 
 library(ggplot2)
