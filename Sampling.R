@@ -1,3 +1,5 @@
+#This graphs the number of sequences broken down by month. If can be made into a continuous axis.
+
 library(ggplot2)
 library(dplyr)
 blah<-read.csv("~/Desktop/sampling.csv")
