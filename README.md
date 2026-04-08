@@ -1,4 +1,4 @@
-Hi there! I am Adam A. Capoferri, a predoctoral fellow in the National Cancer Institute-Frederick and the Department of Microbiology and Immunology at Georgetown University.
+Hi there! I am Adam A. Capoferri, a postdoctoral fellow in the National Cancer Institute-Frederick.
 
 The SARS-CoV-2 pandemic has brought many scientists together to work on developing vaccines and evolutionary studies. While maybe minor, I am here trying to do my part for some of the analyses I have been working on--see preprint and hopefully published manuscript below.
 
